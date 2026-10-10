@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {ArrowRight,ShieldCheck,LockKeyhole,TrendingUp,CreditCard,Wallet,Clock,UserRound,Eye,EyeOff,Headphones} from 'lucide-react';
 import './style.css';
 
-function Pay101Logo(){return <div className="logo-card"><img src="/pay101-logo.svg" alt="Pay101" /></div>}
+function Pay101Logo(){return <div className="logo-card"><img src="https://raw.githubusercontent.com/kartikmishra543/pay101-demo/main/public/assets/pay101-logo.png" alt="Pay101" /></div>}
 function App(){
  const [show,S]=React.useState(false),[remember,R]=React.useState(false),[merchant,M]=React.useState(''),[password,P]=React.useState(''),[notice,N]=React.useState('');
  function submit(e){e.preventDefault();N('Demo only — sign-in is not connected to a live merchant account.')}
