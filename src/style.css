@@ -38,3 +38,12 @@ header{border-bottom:1px solid #e0e9f3;background:#ffffffb8}
 @keyframes merchantAmountIn{from{opacity:.4;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:900px){.merchant-chart-card{max-width:100%}}
 @media(max-width:550px){.merchant-chart-card{padding:15px;margin-bottom:24px}.merchant-chart-stats{gap:7px}.merchant-chart-stats>div{padding:10px}.merchant-chart-stats strong{font-size:14px}.merchant-bars{gap:4px;height:62px}.merchant-currency-select{gap:4px}.merchant-currency-select button{font-size:8px}}
+
+
+/* Move the merchant login panel upward on desktop */
+@media (min-width: 901px){
+  main > .card{transform:translateY(-42px);}
+}
+@media (max-width: 900px){
+  main > .card{transform:none;}
+}
